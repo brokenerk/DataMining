@@ -1,0 +1,231 @@
+cve_pais,nombre_pai
+101,República de Angola
+102,República Democrática y Popular de Argelia
+104,República de Benín
+105,República de Botswana
+106,Burkina Faso
+107,República de Burundi
+108,República de Cabo Verde
+109,República de Camerún
+112,República de Ruanda
+113,República Popular del Congo
+114,República de Costa de Marfil
+115,República de Chad
+116,República de Djibouti
+117,República Árabe deEgipto
+118,Estado de Eritrea
+119,República Federal Democrática de Etiopía
+120,República Gabonesa
+121,República de Gambia
+122,República de Ghana
+123,República de Guinea
+124,República de Guinea Bissau
+125,República de Guinea Ecuatorial
+126,República de Kenia
+127,Reino de Lesotho
+128,República de Liberia
+129,Libia
+130,República de Madagascar
+133,República de Malawi
+134,República de Malí
+135,Reino de Marruecos
+136,República de Mauricio
+137,República Islámica de Mauritania
+138,Islas Anglonormandas
+139,República de Mozambique
+140,República de Namibia
+141,República de Níger
+142,República Federal de Nigeria
+143,República Centroafricana
+145,Colectividad territorial de San Pedro y Miquelón
+147,Isla Santa Helena
+148,República Democrática de Santo Tome y Príncipe
+149,República de Senegal
+150,República de Isla Seychelles
+151,República de Sierra Leona
+152,Unión de las Comoras
+153,República de Somalia
+154,República de Sudáfrica
+160,Reino de Suazilandia
+161,República Unida de Tanzania
+162,República Togolesa
+164,República de Túnez
+165,República de Uganda
+167,República de Zambia
+168,República de Zimbabwe
+169,República Democrática del Congo
+170,República Árabe Saharaui Democrática
+171,República de Sudán
+172,República de Sudán del Sur
+201,Anguila
+202,Antigua y Barbuda
+204,República Argentina
+205,Aruba
+206,Commonwealth de las Bahamas
+207,Barbados
+208,Belice
+209,Islas Bermudas
+210,República de Bolivia
+211,República Federativa de Brasil
+212,Islas Caimán
+213,Canadá
+214,República de Colombia
+215,República de Costa rica
+216,República de Cuba
+217,República de Chile
+218,Commonwealth de Dominica
+219,República de Ecuador
+220,República de El Salvador
+221,Estados Unidos de América
+222,Granada
+223,Groenlandia
+224,Departamento de Guadalupe
+225,República de Guatemala
+226,República Cooperativa de Guyana
+227,Guayana Francesa
+228,República de Haití
+229,República de Honduras
+230,Jamaica
+231,Islas Malvinas
+233,Isla de Montserrat
+234,República de Nicaragua
+235,República de Panamá
+236,República de Paraguay
+237,República de Perú
+238,Estado Libre Asociado de Puerto Rico
+239,República Dominicana
+240,Federación de San Cristóbal y Nieves
+241,Islas de Man
+242,San Vicente y las Granadinas
+243,Santa Lucía
+244,República de Surinam
+245,República de Trinidad y Tobago
+246,Islas Turcas y Caicos
+247,República Oriental del Uruguay
+248,Islas Vírgenes de los Estados Unidos
+249,Islas Vírgenes Británicas
+250,República Bolivariana de Venezuela
+251,Curazao
+252,Isla de Saint Marteen
+253,"Bonaire, San Eustaquio, Saba"
+260,Estados Unidos Mexicanos
+301,Estado Islámico de Afganistán
+302,Reino de Arabia Saudita
+303,República de Armenia
+304,República de Azerbaiyán
+305,Reino de Bahréin
+306,República Popular de Bangladesh
+307,Reino de Bhutan
+308,Estado de Brunei Darussalam
+309,Reino de Camboya
+312,República Popular democrática de Corea
+313,República de Corea
+315,República Popular China
+316,Taiwán
+318,República de Chipre
+321,Emiratos Árabes Unidos
+322,República de Filipinas
+323,República de Georgia
+325,República de la India
+326,República de Indonesia
+327,República Islámica de Irán
+328,República de Iraq
+329,Estado de Israel
+330,Estado de Japón
+331,Reino Hachemí de Jordania
+332,República de Kazajstán
+333,República Kirguisa
+334,Estado de Kuwait
+335,República Libanesa
+337,Malasia
+338,República de Maldivas
+339,Mongolia
+340,Unión de Myanmar
+341,República Federal Democrática de Nepal
+342,Sultanato de Omán
+343,República Islámica de Pakistán
+344,Estado de Qatar
+345,República Democrática Popular de Laos
+346,República de Singapur
+347,República árabe Siria
+348,República Democrática Socialista Sri Lanka
+349,Reino de Tailandia
+350,República de Tayikistán
+351,Turkmenistán
+352,República de Turquía
+353,República de Uzbekistán
+354,República Socialista de Vietnam
+355,República de Yemen
+356,República de Palaos
+357,República Democrática de Timor Oriental
+358,Estado de Palestina
+401,República de Albania
+402,República Federal de Alemania
+403,Principado de Andorra
+405,República de Austria
+407,República de Bielorrusia
+408,Reino de Bélgica
+409,Bosnia y Herzegovina
+410,República de Bulgaria
+411,República de Croacia
+412,Reino de Dinamarca
+413,República Eslovaca
+414,República de Eslovenia
+415,Reino de España
+416,República de Estonia
+417,Islas Feroe
+418,República de Finlandia
+419,República Francesa
+420,Gibraltar
+421,República Helénica
+422,República de Hungría
+423,República de Irlanda
+424,República de Islandia
+425,República Italiana
+426,República de Letonia
+427,Principado de Liechtenstein
+428,República de Lituania
+429,Gran Ducado de Luxemburgo
+430,Antigua República Yugoslava de Macedonia
+431,República de Malta
+433,República de Moldavia
+434,Principado de Mónaco
+435,Reino de Noruega
+436,Reino de los Países Bajos
+437,República de Polonia
+438,República Portuguesa
+439,Reino Unido de Gran Bretaña e Irlanda
+440,República Checa
+441,Rumania
+442,Federación de Rusia
+443,República de San Marino
+444,Estado de la Ciudad del Vaticano
+445,Reino de Suecia
+446,Confederación Suiza
+447,Ucrania
+452,República de Serbia
+453,República de Montenegro
+501,Commonwealth de Australia
+503,Islas Cook
+505,Guam
+507,República de Kiribati
+512,Islas Marianas del Norte
+513,República de las Islas Marshall
+514,Estados Federados de Micronesia
+516,República de Nauru
+517,Niue
+520,Nueva Zelanda
+522,Isla Wake
+523,Estado Independiente de Papúa Nueva Guinea
+524,islas Pitcairn
+526,Islas Salomón
+527,Estado Independiente de Samoa
+528,Samoa Americana
+530,Tokelau
+531,Reino de Tonga
+532,Tuvalu
+533,República de Vanuatu
+534,Territorio de las Islas Wallis y Futuna
+535,República de Las Islas Fiji
+998,Otros países
+999,No especificado
