@@ -12,7 +12,7 @@
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; &quot;large&quot;"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
 <entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
-<entry key="4" type="xstring" value="$EDAD$ &lt;= 20 =&gt; &quot;1&quot;"/>
+<entry key="4" type="xstring" value="$EDAD$ &gt;= 13 AND $EDAD$ &lt;= 20 =&gt; &quot;1&quot;"/>
 <entry key="5" type="xstring" value="$EDAD$ &gt;= 21 AND $EDAD$ &lt;= 40 =&gt; &quot;2&quot;"/>
 <entry key="6" type="xstring" value="$EDAD$ &gt;= 41 AND $EDAD$ &lt;= 60 =&gt; &quot;3&quot;"/>
 <entry key="7" type="xstring" value="$EDAD$ &gt;= 61 AND $EDAD$ &lt;= 80 =&gt; &quot;5&quot;"/>
@@ -64,6 +64,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="860e6386-a992-4dfa-9fb2-efec06fc0ddc"/>
+<entry key="file_store_id" type="xstring" value="ffa41c0c-d26c-4e39-b25d-65a9b66e1e58"/>
 </config>
 </config>
