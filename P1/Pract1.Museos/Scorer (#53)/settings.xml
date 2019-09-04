@@ -36,49 +36,49 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Accuracy"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="1.0"/>
+<entry key="value" type="xdouble" value="0.9845687414923896"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Error"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.0"/>
+<entry key="value" type="xdouble" value="0.015431258507610445"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#Correct"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="161620"/>
+<entry key="value" type="xint" value="159126"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#False"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="0"/>
+<entry key="value" type="xint" value="2494"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Cohen's kappa"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="1.0"/>
+<entry key="value" type="xdouble" value="0.3416378976718006"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="first" type="xstring" value="EDAD_INTV"/>
-<entry key="second" type="xstring" value="Prediction (EDAD_INTV)"/>
+<entry key="first" type="xstring" value="REPETIR_VI"/>
+<entry key="second" type="xstring" value="Prediction (REPETIR_VI)"/>
 <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
 <entry key="sortingReversed" type="xboolean" value="false"/>
 <entry key="sortingStrategy" type="xint" value="0"/>
 <entry key="ignore.missing.values" type="xboolean" value="true"/>
 </config>
 <config key="nodeAnnotation">
-<entry key="text" type="xstring" value="Matriz de%%00013%%00010confusion"/>
+<entry key="text" type="xstring" value="Matriz de%%00013%%00010confusion 1"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="1147"/>
-<entry key="y-coordinate" type="xint" value="179"/>
+<entry key="x-coordinate" type="xint" value="1308"/>
+<entry key="y-coordinate" type="xint" value="19"/>
 <entry key="width" type="xint" value="106"/>
 <entry key="height" type="xint" value="30"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
@@ -109,19 +109,19 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 11"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 11"/>
 <entry key="port_dir_location" type="xstring" value="port_2"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a83b0b2d-7275-4c64-92ed-43d4bbf1f50e"/>
+<entry key="file_store_id" type="xstring" value="d27b7ee4-0997-466a-9a02-937caa4e4584"/>
 </config>
 </config>
