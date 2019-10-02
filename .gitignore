@@ -1,4 +1,7 @@
 
 Example Workflows/
 .metadata/
+.ipynb_checkpoints/
 *.gslides
+*.gdoc
+*.ini
