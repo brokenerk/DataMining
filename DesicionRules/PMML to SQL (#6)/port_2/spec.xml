@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="spec_name"/>
+<entry key="number_columns" type="xint" value="1"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="SQL"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="SELECT primkey, ( CASE WHEN PetalWidthCm IS NULL THEN 'Iris-setosa' WHEN PetalWidthCm&lt;=0.8 THEN 'Iris-setosa' WHEN PetalWidthCm IS NULL THEN 'Iris-setosa' WHEN PetalWidthCm&gt;0.8 THEN CASE WHEN PetalWidthCm IS NULL THEN 'Iris-versicolor' WHEN PetalWidthCm&lt;=1.75 THEN CASE WHEN PetalLengthCm IS NULL THEN 'Iris-versicolor' WHEN PetalLengthCm&lt;=5.35 THEN 'Iris-versicolor' WHEN PetalLengthCm IS NULL THEN 'Iris-versicolor' WHEN PetalLengthCm&gt;5.35 THEN 'Iris-virginica' ELSE NULL END WHEN PetalWidthCm IS NULL THEN 'Iris-versicolor' WHEN PetalWidthCm&gt;1.75 THEN 'Iris-virginica' ELSE NULL END ELSE NULL END) AS Species FROM (SELECT primkey, SepalLengthCm AS SepalLengthCm, SepalWidthCm AS SepalWidthCm, PetalLengthCm AS PetalLengthCm, PetalWidthCm AS PetalWidthCm FROM input AS ms_input) AS model_input"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+</config>
+</config>
