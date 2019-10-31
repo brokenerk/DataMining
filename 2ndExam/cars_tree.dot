@@ -1,14 +1,14 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label=<X<SUB>5</SUB> &le; 1.5<br/>gini = 0.456<br/>samples = 1382<br/>value = [970, 305, 52, 55]>, fillcolor="#efb185"] ;
+0 [label=<safety &le; 0.5<br/>gini = 0.456<br/>samples = 1382<br/>value = [970, 305, 52, 55]>, fillcolor="#efb185"] ;
 1 [label=<gini = 0.0<br/>samples = 970<br/>value = [970, 0, 0, 0]>, fillcolor="#e58139"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<X<SUB>5</SUB> &le; 2.5<br/>gini = 0.418<br/>samples = 412<br/>value = [0, 305, 52, 55]>, fillcolor="#7eed74"] ;
+2 [label=<safety &le; 1.5<br/>gini = 0.418<br/>samples = 412<br/>value = [0, 305, 52, 55]>, fillcolor="#7eed74"] ;
 0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 3 [label=<gini = 0.0<br/>samples = 305<br/>value = [0, 305, 0, 0]>, fillcolor="#47e539"] ;
 2 -> 3 ;
-4 [label=<X<SUB>5</SUB> &le; 3.5<br/>gini = 0.5<br/>samples = 107<br/>value = [0, 0, 52, 55]>, fillcolor="#fdf4fe"] ;
+4 [label=<safety &le; 2.5<br/>gini = 0.5<br/>samples = 107<br/>value = [0, 0, 52, 55]>, fillcolor="#fdf4fe"] ;
 2 -> 4 ;
 5 [label=<gini = 0.0<br/>samples = 52<br/>value = [0, 0, 52, 0]>, fillcolor="#399de5"] ;
 4 -> 5 ;

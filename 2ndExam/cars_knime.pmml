@@ -55,108 +55,129 @@
       <ScoreDistribution value="acc" recordCount="307.0"/>
       <ScoreDistribution value="vgood" recordCount="52.0"/>
       <ScoreDistribution value="good" recordCount="55.0"/>
-      <Node id="1" score="unacc" recordCount="460.0">
-        <SimplePredicate field="safety" operator="equal" value="med"/>
-        <ScoreDistribution value="unacc" recordCount="281.0"/>
-        <ScoreDistribution value="acc" recordCount="147.0"/>
+      <Node id="1" score="unacc" recordCount="459.0">
+        <SimplePredicate field="safety" operator="equal" value="low"/>
+        <ScoreDistribution value="unacc" recordCount="459.0"/>
+        <ScoreDistribution value="acc" recordCount="0.0"/>
         <ScoreDistribution value="vgood" recordCount="0.0"/>
-        <ScoreDistribution value="good" recordCount="32.0"/>
-        <Node id="2" score="unacc" recordCount="158.0">
+        <ScoreDistribution value="good" recordCount="0.0"/>
+      </Node>
+      <Node id="2" score="unacc" recordCount="456.0">
+        <SimplePredicate field="safety" operator="equal" value="med"/>
+        <ScoreDistribution value="unacc" recordCount="284.0"/>
+        <ScoreDistribution value="acc" recordCount="142.0"/>
+        <ScoreDistribution value="vgood" recordCount="0.0"/>
+        <ScoreDistribution value="good" recordCount="30.0"/>
+        <Node id="3" score="unacc" recordCount="146.0">
           <SimplePredicate field="persons" operator="lessOrEqual" value="3.0"/>
-          <ScoreDistribution value="unacc" recordCount="158.0"/>
+          <ScoreDistribution value="unacc" recordCount="146.0"/>
           <ScoreDistribution value="acc" recordCount="0.0"/>
           <ScoreDistribution value="vgood" recordCount="0.0"/>
           <ScoreDistribution value="good" recordCount="0.0"/>
         </Node>
-        <Node id="3" score="acc" recordCount="302.0">
+        <Node id="4" score="acc" recordCount="310.0">
           <SimplePredicate field="persons" operator="greaterThan" value="3.0"/>
-          <ScoreDistribution value="unacc" recordCount="123.0"/>
-          <ScoreDistribution value="acc" recordCount="147.0"/>
+          <ScoreDistribution value="unacc" recordCount="138.0"/>
+          <ScoreDistribution value="acc" recordCount="142.0"/>
           <ScoreDistribution value="vgood" recordCount="0.0"/>
-          <ScoreDistribution value="good" recordCount="32.0"/>
-          <Node id="4" score="unacc" recordCount="77.0">
+          <ScoreDistribution value="good" recordCount="30.0"/>
+          <Node id="5" score="unacc" recordCount="85.0">
             <SimplePredicate field="buying" operator="equal" value="vhigh"/>
-            <ScoreDistribution value="unacc" recordCount="55.0"/>
-            <ScoreDistribution value="acc" recordCount="22.0"/>
+            <ScoreDistribution value="unacc" recordCount="61.0"/>
+            <ScoreDistribution value="acc" recordCount="24.0"/>
             <ScoreDistribution value="vgood" recordCount="0.0"/>
             <ScoreDistribution value="good" recordCount="0.0"/>
-            <Node id="5" score="unacc" recordCount="19.0">
+            <Node id="6" score="unacc" recordCount="23.0">
               <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-              <ScoreDistribution value="unacc" recordCount="19.0"/>
+              <ScoreDistribution value="unacc" recordCount="23.0"/>
               <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="6" score="unacc" recordCount="20.0">
+            <Node id="7" score="unacc" recordCount="23.0">
               <SimplePredicate field="maint" operator="equal" value="high"/>
-              <ScoreDistribution value="unacc" recordCount="20.0"/>
+              <ScoreDistribution value="unacc" recordCount="23.0"/>
               <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="7" score="acc" recordCount="19.0">
+            <Node id="8" score="acc" recordCount="20.0">
               <SimplePredicate field="maint" operator="equal" value="med"/>
               <ScoreDistribution value="unacc" recordCount="7.0"/>
-              <ScoreDistribution value="acc" recordCount="12.0"/>
+              <ScoreDistribution value="acc" recordCount="13.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="8" score="unacc" recordCount="6.0">
+              <Node id="9" score="unacc" recordCount="5.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="5.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="10" score="acc" recordCount="7.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="2.0"/>
+                <ScoreDistribution value="acc" recordCount="5.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+                <Node id="11" score="unacc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="2.0"/>
+                  <ScoreDistribution value="acc" recordCount="1.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="12" score="acc" recordCount="4.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="4.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="13" score="acc" recordCount="8.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="8.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="14" score="acc" recordCount="19.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="8.0"/>
+              <ScoreDistribution value="acc" recordCount="11.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+              <Node id="15" score="unacc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
                 <ScoreDistribution value="unacc" recordCount="6.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="9" score="acc" recordCount="6.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="5.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="12" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="7.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-            </Node>
-            <Node id="13" score="acc" recordCount="19.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
-              <ScoreDistribution value="unacc" recordCount="9.0"/>
-              <ScoreDistribution value="acc" recordCount="10.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="14" score="unacc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="7.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="15" score="acc" recordCount="5.0">
+              <Node id="16" score="acc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="2.0"/>
-                <ScoreDistribution value="acc" recordCount="3.0"/>
+                <ScoreDistribution value="acc" recordCount="4.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="16" score="unacc" recordCount="2.0">
-                  <SimplePredicate field="persons" operator="lessOrEqual" value="4.5"/>
+                <Node id="17" score="unacc" recordCount="2.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="2.5"/>
                   <ScoreDistribution value="unacc" recordCount="2.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="17" score="acc" recordCount="3.0">
-                  <SimplePredicate field="persons" operator="greaterThan" value="4.5"/>
+                <Node id="18" score="acc" recordCount="4.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="2.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="acc" recordCount="4.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
               </Node>
-              <Node id="18" score="acc" recordCount="7.0">
+              <Node id="19" score="acc" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="7.0"/>
@@ -165,96 +186,138 @@
               </Node>
             </Node>
           </Node>
-          <Node id="19" score="unacc" recordCount="72.0">
+          <Node id="20" score="unacc" recordCount="76.0">
             <SimplePredicate field="buying" operator="equal" value="high"/>
-            <ScoreDistribution value="unacc" recordCount="43.0"/>
-            <ScoreDistribution value="acc" recordCount="29.0"/>
+            <ScoreDistribution value="unacc" recordCount="46.0"/>
+            <ScoreDistribution value="acc" recordCount="30.0"/>
             <ScoreDistribution value="vgood" recordCount="0.0"/>
             <ScoreDistribution value="good" recordCount="0.0"/>
-            <Node id="20" score="unacc" recordCount="26.0">
+            <Node id="21" score="unacc" recordCount="26.0">
               <SimplePredicate field="lug_boot" operator="equal" value="small"/>
               <ScoreDistribution value="unacc" recordCount="26.0"/>
               <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="21" score="acc" recordCount="21.0">
+            <Node id="22" score="unacc" recordCount="25.0">
               <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-              <ScoreDistribution value="unacc" recordCount="10.0"/>
+              <ScoreDistribution value="unacc" recordCount="14.0"/>
               <ScoreDistribution value="acc" recordCount="11.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="22" score="unacc" recordCount="5.0">
-                <SimplePredicate field="doors" operator="lessOrEqual" value="2.5"/>
-                <ScoreDistribution value="unacc" recordCount="5.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
+              <Node id="23" score="unacc" recordCount="13.0">
+                <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                <ScoreDistribution value="unacc" recordCount="11.0"/>
+                <ScoreDistribution value="acc" recordCount="2.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
+                <Node id="24" score="unacc" recordCount="7.0">
+                  <SimplePredicate field="persons" operator="lessOrEqual" value="4.5"/>
+                  <ScoreDistribution value="unacc" recordCount="7.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="25" score="unacc" recordCount="6.0">
+                  <SimplePredicate field="persons" operator="greaterThan" value="4.5"/>
+                  <ScoreDistribution value="unacc" recordCount="4.0"/>
+                  <ScoreDistribution value="acc" recordCount="2.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                  <Node id="26" score="unacc" recordCount="2.0">
+                    <SimplePredicate field="maint" operator="equal" value="vhigh"/>
+                    <ScoreDistribution value="unacc" recordCount="2.0"/>
+                    <ScoreDistribution value="acc" recordCount="0.0"/>
+                    <ScoreDistribution value="vgood" recordCount="0.0"/>
+                    <ScoreDistribution value="good" recordCount="0.0"/>
+                  </Node>
+                  <Node id="27" score="acc" recordCount="1.0">
+                    <SimplePredicate field="maint" operator="equal" value="high"/>
+                    <ScoreDistribution value="unacc" recordCount="0.0"/>
+                    <ScoreDistribution value="acc" recordCount="1.0"/>
+                    <ScoreDistribution value="vgood" recordCount="0.0"/>
+                    <ScoreDistribution value="good" recordCount="0.0"/>
+                  </Node>
+                  <Node id="28" score="unacc" recordCount="1.0">
+                    <SimplePredicate field="maint" operator="equal" value="med"/>
+                    <ScoreDistribution value="unacc" recordCount="1.0"/>
+                    <ScoreDistribution value="acc" recordCount="0.0"/>
+                    <ScoreDistribution value="vgood" recordCount="0.0"/>
+                    <ScoreDistribution value="good" recordCount="0.0"/>
+                  </Node>
+                  <Node id="29" score="unacc" recordCount="2.0">
+                    <SimplePredicate field="maint" operator="equal" value="low"/>
+                    <ScoreDistribution value="unacc" recordCount="1.0"/>
+                    <ScoreDistribution value="acc" recordCount="1.0"/>
+                    <ScoreDistribution value="vgood" recordCount="0.0"/>
+                    <ScoreDistribution value="good" recordCount="0.0"/>
+                  </Node>
+                </Node>
               </Node>
-              <Node id="23" score="acc" recordCount="16.0">
-                <SimplePredicate field="doors" operator="greaterThan" value="2.5"/>
-                <ScoreDistribution value="unacc" recordCount="5.0"/>
-                <ScoreDistribution value="acc" recordCount="11.0"/>
+              <Node id="30" score="acc" recordCount="12.0">
+                <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                <ScoreDistribution value="unacc" recordCount="3.0"/>
+                <ScoreDistribution value="acc" recordCount="9.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="24" score="unacc" recordCount="3.0">
+                <Node id="31" score="unacc" recordCount="3.0">
                   <SimplePredicate field="maint" operator="equal" value="vhigh"/>
                   <ScoreDistribution value="unacc" recordCount="3.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="25" score="acc" recordCount="5.0">
+                <Node id="32" score="acc" recordCount="3.0">
                   <SimplePredicate field="maint" operator="equal" value="high"/>
-                  <ScoreDistribution value="unacc" recordCount="1.0"/>
-                  <ScoreDistribution value="acc" recordCount="4.0"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="28" score="acc" recordCount="3.0">
+                <Node id="33" score="acc" recordCount="3.0">
                   <SimplePredicate field="maint" operator="equal" value="med"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="3.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="29" score="acc" recordCount="5.0">
+                <Node id="34" score="acc" recordCount="3.0">
                   <SimplePredicate field="maint" operator="equal" value="low"/>
-                  <ScoreDistribution value="unacc" recordCount="1.0"/>
-                  <ScoreDistribution value="acc" recordCount="4.0"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
               </Node>
             </Node>
-            <Node id="32" score="acc" recordCount="25.0">
+            <Node id="35" score="acc" recordCount="25.0">
               <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-              <ScoreDistribution value="unacc" recordCount="7.0"/>
-              <ScoreDistribution value="acc" recordCount="18.0"/>
+              <ScoreDistribution value="unacc" recordCount="6.0"/>
+              <ScoreDistribution value="acc" recordCount="19.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="33" score="unacc" recordCount="7.0">
+              <Node id="36" score="unacc" recordCount="6.0">
                 <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-                <ScoreDistribution value="unacc" recordCount="7.0"/>
+                <ScoreDistribution value="unacc" recordCount="6.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="34" score="acc" recordCount="4.0">
+              <Node id="37" score="acc" recordCount="7.0">
                 <SimplePredicate field="maint" operator="equal" value="high"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="4.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="35" score="acc" recordCount="7.0">
-                <SimplePredicate field="maint" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="7.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="36" score="acc" recordCount="7.0">
+              <Node id="38" score="acc" recordCount="5.0">
+                <SimplePredicate field="maint" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="5.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="39" score="acc" recordCount="7.0">
                 <SimplePredicate field="maint" operator="equal" value="low"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="7.0"/>
@@ -263,173 +326,47 @@
               </Node>
             </Node>
           </Node>
-          <Node id="37" score="acc" recordCount="74.0">
+          <Node id="40" score="acc" recordCount="74.0">
             <SimplePredicate field="buying" operator="equal" value="med"/>
-            <ScoreDistribution value="unacc" recordCount="14.0"/>
-            <ScoreDistribution value="acc" recordCount="49.0"/>
+            <ScoreDistribution value="unacc" recordCount="18.0"/>
+            <ScoreDistribution value="acc" recordCount="46.0"/>
             <ScoreDistribution value="vgood" recordCount="0.0"/>
-            <ScoreDistribution value="good" recordCount="11.0"/>
-            <Node id="38" score="acc" recordCount="19.0">
+            <ScoreDistribution value="good" recordCount="10.0"/>
+            <Node id="41" score="acc" recordCount="19.0">
               <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-              <ScoreDistribution value="unacc" recordCount="7.0"/>
-              <ScoreDistribution value="acc" recordCount="12.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="39" score="unacc" recordCount="5.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="5.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="40" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="2.0"/>
-                <ScoreDistribution value="acc" recordCount="5.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="41" score="unacc" recordCount="3.0">
-                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
-                  <ScoreDistribution value="unacc" recordCount="2.0"/>
-                  <ScoreDistribution value="acc" recordCount="1.0"/>
-                  <ScoreDistribution value="vgood" recordCount="0.0"/>
-                  <ScoreDistribution value="good" recordCount="0.0"/>
-                </Node>
-                <Node id="42" score="acc" recordCount="4.0">
-                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
-                  <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="4.0"/>
-                  <ScoreDistribution value="vgood" recordCount="0.0"/>
-                  <ScoreDistribution value="good" recordCount="0.0"/>
-                </Node>
-              </Node>
-              <Node id="43" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="7.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-            </Node>
-            <Node id="44" score="acc" recordCount="16.0">
-              <SimplePredicate field="maint" operator="equal" value="high"/>
-              <ScoreDistribution value="unacc" recordCount="6.0"/>
-              <ScoreDistribution value="acc" recordCount="10.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="45" score="unacc" recordCount="5.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="5.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="46" score="acc" recordCount="4.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="3.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="49" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="7.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-            </Node>
-            <Node id="50" score="acc" recordCount="18.0">
-              <SimplePredicate field="maint" operator="equal" value="med"/>
-              <ScoreDistribution value="unacc" recordCount="0.0"/>
-              <ScoreDistribution value="acc" recordCount="18.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="51" score="good" recordCount="21.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="9.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="11.0"/>
-              <Node id="52" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="6.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="55" score="acc" recordCount="6.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="3.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="3.0"/>
-                <Node id="56" score="acc" recordCount="3.0">
-                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
-                  <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="3.0"/>
-                  <ScoreDistribution value="vgood" recordCount="0.0"/>
-                  <ScoreDistribution value="good" recordCount="0.0"/>
-                </Node>
-                <Node id="57" score="good" recordCount="3.0">
-                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
-                  <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="0.0"/>
-                  <ScoreDistribution value="vgood" recordCount="0.0"/>
-                  <ScoreDistribution value="good" recordCount="3.0"/>
-                </Node>
-              </Node>
-              <Node id="58" score="good" recordCount="8.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="8.0"/>
-              </Node>
-            </Node>
-          </Node>
-          <Node id="59" score="acc" recordCount="79.0">
-            <SimplePredicate field="buying" operator="equal" value="low"/>
-            <ScoreDistribution value="unacc" recordCount="11.0"/>
-            <ScoreDistribution value="acc" recordCount="47.0"/>
-            <ScoreDistribution value="vgood" recordCount="0.0"/>
-            <ScoreDistribution value="good" recordCount="21.0"/>
-            <Node id="60" score="acc" recordCount="20.0">
-              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-              <ScoreDistribution value="unacc" recordCount="9.0"/>
+              <ScoreDistribution value="unacc" recordCount="8.0"/>
               <ScoreDistribution value="acc" recordCount="11.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="61" score="unacc" recordCount="6.0">
+              <Node id="42" score="unacc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
                 <ScoreDistribution value="unacc" recordCount="6.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="62" score="acc" recordCount="7.0">
+              <Node id="43" score="acc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="3.0"/>
+                <ScoreDistribution value="unacc" recordCount="2.0"/>
                 <ScoreDistribution value="acc" recordCount="4.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="63" score="unacc" recordCount="4.0">
-                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
-                  <ScoreDistribution value="unacc" recordCount="3.0"/>
-                  <ScoreDistribution value="acc" recordCount="1.0"/>
+                <Node id="44" score="unacc" recordCount="2.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="2.5"/>
+                  <ScoreDistribution value="unacc" recordCount="2.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="66" score="acc" recordCount="3.0">
-                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                <Node id="45" score="acc" recordCount="4.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="2.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="acc" recordCount="4.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
               </Node>
-              <Node id="67" score="acc" recordCount="7.0">
+              <Node id="46" score="acc" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="7.0"/>
@@ -437,40 +374,117 @@
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
             </Node>
-            <Node id="68" score="acc" recordCount="20.0">
+            <Node id="47" score="unacc" recordCount="16.0">
               <SimplePredicate field="maint" operator="equal" value="high"/>
+              <ScoreDistribution value="unacc" recordCount="8.0"/>
+              <ScoreDistribution value="acc" recordCount="8.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+              <Node id="48" score="unacc" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="6.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="49" score="acc" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="2.0"/>
+                <ScoreDistribution value="acc" recordCount="4.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+                <Node id="50" score="unacc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="2.0"/>
+                  <ScoreDistribution value="acc" recordCount="1.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="51" score="acc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="52" score="acc" recordCount="4.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="4.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="53" score="acc" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="med"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
               <ScoreDistribution value="acc" recordCount="19.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="74" score="good" recordCount="20.0">
-              <SimplePredicate field="maint" operator="equal" value="med"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="8.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="11.0"/>
-              <Node id="75" score="acc" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+              <Node id="54" score="acc" recordCount="5.0">
+                <SimplePredicate field="doors" operator="lessOrEqual" value="2.5"/>
                 <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="6.0"/>
+                <ScoreDistribution value="acc" recordCount="4.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-              <Node id="78" score="good" recordCount="5.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="2.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="3.0"/>
-                <Node id="79" score="acc" recordCount="2.0">
-                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                <Node id="55" score="unacc" recordCount="1.0">
+                  <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                  <ScoreDistribution value="unacc" recordCount="1.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="56" score="acc" recordCount="2.0">
+                  <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="2.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="80" score="good" recordCount="3.0">
+                <Node id="57" score="acc" recordCount="2.0">
+                  <SimplePredicate field="lug_boot" operator="equal" value="big"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="2.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="58" score="acc" recordCount="15.0">
+                <SimplePredicate field="doors" operator="greaterThan" value="2.5"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="15.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="59" score="good" recordCount="19.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="8.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="10.0"/>
+              <Node id="60" score="acc" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="1.0"/>
+                <ScoreDistribution value="acc" recordCount="5.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="63" score="acc" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="3.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="3.0"/>
+                <Node id="64" score="acc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="65" score="good" recordCount="3.0">
                   <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -478,49 +492,105 @@
                   <ScoreDistribution value="good" recordCount="3.0"/>
                 </Node>
               </Node>
-              <Node id="81" score="good" recordCount="8.0">
+              <Node id="66" score="good" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="8.0"/>
+                <ScoreDistribution value="good" recordCount="7.0"/>
               </Node>
             </Node>
-            <Node id="82" score="good" recordCount="19.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
-              <ScoreDistribution value="unacc" recordCount="0.0"/>
-              <ScoreDistribution value="acc" recordCount="9.0"/>
+          </Node>
+          <Node id="67" score="acc" recordCount="75.0">
+            <SimplePredicate field="buying" operator="equal" value="low"/>
+            <ScoreDistribution value="unacc" recordCount="13.0"/>
+            <ScoreDistribution value="acc" recordCount="42.0"/>
+            <ScoreDistribution value="vgood" recordCount="0.0"/>
+            <ScoreDistribution value="good" recordCount="20.0"/>
+            <Node id="68" score="unacc" recordCount="21.0">
+              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
+              <ScoreDistribution value="unacc" recordCount="11.0"/>
+              <ScoreDistribution value="acc" recordCount="10.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="10.0"/>
-              <Node id="83" score="acc" recordCount="6.0">
+              <ScoreDistribution value="good" recordCount="0.0"/>
+              <Node id="69" score="unacc" recordCount="8.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="8.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="70" score="acc" recordCount="7.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="3.0"/>
+                <ScoreDistribution value="acc" recordCount="4.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+                <Node id="71" score="unacc" recordCount="4.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="3.0"/>
+                  <ScoreDistribution value="acc" recordCount="1.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="74" score="acc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="vgood" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="75" score="acc" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="6.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="84" score="good" recordCount="7.0">
+            </Node>
+            <Node id="76" score="acc" recordCount="18.0">
+              <SimplePredicate field="maint" operator="equal" value="high"/>
+              <ScoreDistribution value="unacc" recordCount="0.0"/>
+              <ScoreDistribution value="acc" recordCount="18.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+            <Node id="77" score="good" recordCount="22.0">
+              <SimplePredicate field="maint" operator="equal" value="med"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="10.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="11.0"/>
+              <Node id="78" score="acc" recordCount="8.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="1.0"/>
+                <ScoreDistribution value="acc" recordCount="7.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="81" score="good" recordCount="8.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="3.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="4.0"/>
-                <Node id="85" score="acc" recordCount="4.0">
+                <ScoreDistribution value="good" recordCount="5.0"/>
+                <Node id="82" score="acc" recordCount="4.0">
                   <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="3.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
                   <ScoreDistribution value="good" recordCount="1.0"/>
                 </Node>
-                <Node id="88" score="good" recordCount="3.0">
+                <Node id="85" score="good" recordCount="4.0">
                   <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="0.0"/>
-                  <ScoreDistribution value="good" recordCount="3.0"/>
+                  <ScoreDistribution value="good" recordCount="4.0"/>
                 </Node>
               </Node>
-              <Node id="89" score="good" recordCount="6.0">
+              <Node id="86" score="good" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -528,145 +598,215 @@
                 <ScoreDistribution value="good" recordCount="6.0"/>
               </Node>
             </Node>
+            <Node id="87" score="good" recordCount="14.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="4.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="9.0"/>
+              <Node id="88" score="acc" recordCount="4.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="1.0"/>
+                <ScoreDistribution value="acc" recordCount="3.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+              <Node id="91" score="good" recordCount="5.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="1.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="4.0"/>
+              </Node>
+              <Node id="94" score="good" recordCount="5.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="5.0"/>
+              </Node>
+            </Node>
           </Node>
         </Node>
       </Node>
-      <Node id="90" score="unacc" recordCount="459.0">
+      <Node id="95" score="unacc" recordCount="467.0">
         <SimplePredicate field="safety" operator="equal" value="high"/>
-        <ScoreDistribution value="unacc" recordCount="224.0"/>
-        <ScoreDistribution value="acc" recordCount="160.0"/>
+        <ScoreDistribution value="unacc" recordCount="225.0"/>
+        <ScoreDistribution value="acc" recordCount="165.0"/>
         <ScoreDistribution value="vgood" recordCount="52.0"/>
-        <ScoreDistribution value="good" recordCount="23.0"/>
-        <Node id="91" score="unacc" recordCount="157.0">
+        <ScoreDistribution value="good" recordCount="25.0"/>
+        <Node id="96" score="unacc" recordCount="163.0">
           <SimplePredicate field="persons" operator="lessOrEqual" value="3.0"/>
-          <ScoreDistribution value="unacc" recordCount="157.0"/>
+          <ScoreDistribution value="unacc" recordCount="163.0"/>
           <ScoreDistribution value="acc" recordCount="0.0"/>
           <ScoreDistribution value="vgood" recordCount="0.0"/>
           <ScoreDistribution value="good" recordCount="0.0"/>
         </Node>
-        <Node id="92" score="acc" recordCount="302.0">
+        <Node id="97" score="acc" recordCount="304.0">
           <SimplePredicate field="persons" operator="greaterThan" value="3.0"/>
-          <ScoreDistribution value="unacc" recordCount="67.0"/>
-          <ScoreDistribution value="acc" recordCount="160.0"/>
+          <ScoreDistribution value="unacc" recordCount="62.0"/>
+          <ScoreDistribution value="acc" recordCount="165.0"/>
           <ScoreDistribution value="vgood" recordCount="52.0"/>
-          <ScoreDistribution value="good" recordCount="23.0"/>
-          <Node id="93" score="unacc" recordCount="72.0">
+          <ScoreDistribution value="good" recordCount="25.0"/>
+          <Node id="98" score="acc" recordCount="74.0">
             <SimplePredicate field="buying" operator="equal" value="vhigh"/>
-            <ScoreDistribution value="unacc" recordCount="37.0"/>
-            <ScoreDistribution value="acc" recordCount="35.0"/>
+            <ScoreDistribution value="unacc" recordCount="36.0"/>
+            <ScoreDistribution value="acc" recordCount="38.0"/>
             <ScoreDistribution value="vgood" recordCount="0.0"/>
             <ScoreDistribution value="good" recordCount="0.0"/>
-            <Node id="94" score="unacc" recordCount="17.0">
-              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-              <ScoreDistribution value="unacc" recordCount="17.0"/>
-              <ScoreDistribution value="acc" recordCount="0.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="95" score="unacc" recordCount="18.0">
-              <SimplePredicate field="maint" operator="equal" value="high"/>
-              <ScoreDistribution value="unacc" recordCount="18.0"/>
-              <ScoreDistribution value="acc" recordCount="0.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="96" score="acc" recordCount="18.0">
-              <SimplePredicate field="maint" operator="equal" value="med"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="17.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="102" score="acc" recordCount="19.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="18.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-          </Node>
-          <Node id="108" score="acc" recordCount="79.0">
-            <SimplePredicate field="buying" operator="equal" value="high"/>
-            <ScoreDistribution value="unacc" recordCount="23.0"/>
-            <ScoreDistribution value="acc" recordCount="56.0"/>
-            <ScoreDistribution value="vgood" recordCount="0.0"/>
-            <ScoreDistribution value="good" recordCount="0.0"/>
-            <Node id="109" score="unacc" recordCount="20.0">
+            <Node id="99" score="unacc" recordCount="20.0">
               <SimplePredicate field="maint" operator="equal" value="vhigh"/>
               <ScoreDistribution value="unacc" recordCount="20.0"/>
               <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="110" score="acc" recordCount="22.0">
+            <Node id="100" score="unacc" recordCount="15.0">
               <SimplePredicate field="maint" operator="equal" value="high"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="21.0"/>
+              <ScoreDistribution value="unacc" recordCount="15.0"/>
+              <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="116" score="acc" recordCount="19.0">
+            <Node id="101" score="acc" recordCount="19.0">
               <SimplePredicate field="maint" operator="equal" value="med"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
               <ScoreDistribution value="acc" recordCount="18.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="122" score="acc" recordCount="18.0">
+            <Node id="107" score="acc" recordCount="20.0">
               <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="0.0"/>
+              <ScoreDistribution value="acc" recordCount="20.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+          </Node>
+          <Node id="108" score="acc" recordCount="75.0">
+            <SimplePredicate field="buying" operator="equal" value="high"/>
+            <ScoreDistribution value="unacc" recordCount="21.0"/>
+            <ScoreDistribution value="acc" recordCount="54.0"/>
+            <ScoreDistribution value="vgood" recordCount="0.0"/>
+            <ScoreDistribution value="good" recordCount="0.0"/>
+            <Node id="109" score="unacc" recordCount="18.0">
+              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
+              <ScoreDistribution value="unacc" recordCount="18.0"/>
+              <ScoreDistribution value="acc" recordCount="0.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+            <Node id="110" score="acc" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="high"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="19.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+            <Node id="116" score="acc" recordCount="18.0">
+              <SimplePredicate field="maint" operator="equal" value="med"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
               <ScoreDistribution value="acc" recordCount="17.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-          </Node>
-          <Node id="128" score="acc" recordCount="72.0">
-            <SimplePredicate field="buying" operator="equal" value="med"/>
-            <ScoreDistribution value="unacc" recordCount="4.0"/>
-            <ScoreDistribution value="acc" recordCount="40.0"/>
-            <ScoreDistribution value="vgood" recordCount="21.0"/>
-            <ScoreDistribution value="good" recordCount="7.0"/>
-            <Node id="129" score="acc" recordCount="16.0">
-              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="15.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="132" score="acc" recordCount="19.0">
-              <SimplePredicate field="maint" operator="equal" value="high"/>
+            <Node id="122" score="acc" recordCount="19.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
               <ScoreDistribution value="acc" recordCount="18.0"/>
               <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
             </Node>
-            <Node id="138" score="vgood" recordCount="17.0">
-              <SimplePredicate field="maint" operator="equal" value="med"/>
+          </Node>
+          <Node id="128" score="acc" recordCount="81.0">
+            <SimplePredicate field="buying" operator="equal" value="med"/>
+            <ScoreDistribution value="unacc" recordCount="3.0"/>
+            <ScoreDistribution value="acc" recordCount="48.0"/>
+            <ScoreDistribution value="vgood" recordCount="21.0"/>
+            <ScoreDistribution value="good" recordCount="9.0"/>
+            <Node id="129" score="acc" recordCount="21.0">
+              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="7.0"/>
-              <ScoreDistribution value="vgood" recordCount="9.0"/>
+              <ScoreDistribution value="acc" recordCount="20.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
               <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="139" score="acc" recordCount="6.0">
+            </Node>
+            <Node id="135" score="acc" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="high"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="19.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+            <Node id="141" score="vgood" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="med"/>
+              <ScoreDistribution value="unacc" recordCount="0.0"/>
+              <ScoreDistribution value="acc" recordCount="9.0"/>
+              <ScoreDistribution value="vgood" recordCount="11.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+              <Node id="142" score="acc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="5.0"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="6.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="142" score="vgood" recordCount="6.0">
+              <Node id="143" score="vgood" recordCount="8.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="2.0"/>
-                <ScoreDistribution value="vgood" recordCount="4.0"/>
+                <ScoreDistribution value="acc" recordCount="3.0"/>
+                <ScoreDistribution value="vgood" recordCount="5.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="143" score="acc" recordCount="3.0">
+                <Node id="144" score="acc" recordCount="4.0">
                   <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="2.0"/>
+                  <ScoreDistribution value="acc" recordCount="3.0"/>
                   <ScoreDistribution value="vgood" recordCount="1.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-                <Node id="144" score="vgood" recordCount="3.0">
+                <Node id="147" score="vgood" recordCount="4.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
+                  <ScoreDistribution value="vgood" recordCount="4.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+              </Node>
+              <Node id="148" score="vgood" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="6.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+              </Node>
+            </Node>
+            <Node id="149" score="vgood" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="1.0"/>
+              <ScoreDistribution value="acc" recordCount="0.0"/>
+              <ScoreDistribution value="vgood" recordCount="10.0"/>
+              <ScoreDistribution value="good" recordCount="9.0"/>
+              <Node id="150" score="good" recordCount="8.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
+                <ScoreDistribution value="unacc" recordCount="1.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="7.0"/>
+              </Node>
+              <Node id="153" score="vgood" recordCount="6.0">
+                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="vgood" recordCount="4.0"/>
+                <ScoreDistribution value="good" recordCount="2.0"/>
+                <Node id="154" score="good" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
+                  <ScoreDistribution value="vgood" recordCount="1.0"/>
+                  <ScoreDistribution value="good" recordCount="2.0"/>
+                </Node>
+                <Node id="155" score="vgood" recordCount="3.0">
                   <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -674,35 +814,63 @@
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
               </Node>
-              <Node id="145" score="vgood" recordCount="5.0">
+              <Node id="156" score="vgood" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="5.0"/>
+                <ScoreDistribution value="vgood" recordCount="6.0"/>
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
             </Node>
-            <Node id="146" score="vgood" recordCount="20.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
+          </Node>
+          <Node id="157" score="vgood" recordCount="74.0">
+            <SimplePredicate field="buying" operator="equal" value="low"/>
+            <ScoreDistribution value="unacc" recordCount="2.0"/>
+            <ScoreDistribution value="acc" recordCount="25.0"/>
+            <ScoreDistribution value="vgood" recordCount="31.0"/>
+            <ScoreDistribution value="good" recordCount="16.0"/>
+            <Node id="158" score="acc" recordCount="18.0">
+              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
+              <ScoreDistribution value="unacc" recordCount="0.0"/>
+              <ScoreDistribution value="acc" recordCount="18.0"/>
+              <ScoreDistribution value="vgood" recordCount="0.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+            </Node>
+            <Node id="159" score="vgood" recordCount="19.0">
+              <SimplePredicate field="maint" operator="equal" value="high"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="0.0"/>
-              <ScoreDistribution value="vgood" recordCount="12.0"/>
-              <ScoreDistribution value="good" recordCount="7.0"/>
-              <Node id="147" score="good" recordCount="7.0">
+              <ScoreDistribution value="acc" recordCount="7.0"/>
+              <ScoreDistribution value="vgood" recordCount="11.0"/>
+              <ScoreDistribution value="good" recordCount="0.0"/>
+              <Node id="160" score="acc" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
                 <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
+                <ScoreDistribution value="acc" recordCount="5.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="6.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
-              <Node id="150" score="vgood" recordCount="6.0">
+              <Node id="163" score="vgood" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="5.0"/>
-                <ScoreDistribution value="good" recordCount="1.0"/>
+                <ScoreDistribution value="acc" recordCount="2.0"/>
+                <ScoreDistribution value="vgood" recordCount="4.0"/>
+                <ScoreDistribution value="good" recordCount="0.0"/>
+                <Node id="164" score="acc" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="2.0"/>
+                  <ScoreDistribution value="vgood" recordCount="1.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
+                <Node id="165" score="vgood" recordCount="3.0">
+                  <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
+                  <ScoreDistribution value="unacc" recordCount="0.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
+                  <ScoreDistribution value="vgood" recordCount="3.0"/>
+                  <ScoreDistribution value="good" recordCount="0.0"/>
+                </Node>
               </Node>
-              <Node id="153" score="vgood" recordCount="7.0">
+              <Node id="166" score="vgood" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -710,47 +878,33 @@
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
             </Node>
-          </Node>
-          <Node id="154" score="vgood" recordCount="79.0">
-            <SimplePredicate field="buying" operator="equal" value="low"/>
-            <ScoreDistribution value="unacc" recordCount="3.0"/>
-            <ScoreDistribution value="acc" recordCount="29.0"/>
-            <ScoreDistribution value="vgood" recordCount="31.0"/>
-            <ScoreDistribution value="good" recordCount="16.0"/>
-            <Node id="155" score="acc" recordCount="20.0">
-              <SimplePredicate field="maint" operator="equal" value="vhigh"/>
+            <Node id="167" score="vgood" recordCount="20.0">
+              <SimplePredicate field="maint" operator="equal" value="med"/>
               <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="19.0"/>
-              <ScoreDistribution value="vgood" recordCount="0.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-            </Node>
-            <Node id="161" score="acc" recordCount="21.0">
-              <SimplePredicate field="maint" operator="equal" value="high"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
-              <ScoreDistribution value="acc" recordCount="10.0"/>
+              <ScoreDistribution value="acc" recordCount="0.0"/>
               <ScoreDistribution value="vgood" recordCount="10.0"/>
-              <ScoreDistribution value="good" recordCount="0.0"/>
-              <Node id="162" score="acc" recordCount="8.0">
+              <ScoreDistribution value="good" recordCount="9.0"/>
+              <Node id="168" score="good" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
                 <ScoreDistribution value="unacc" recordCount="1.0"/>
-                <ScoreDistribution value="acc" recordCount="7.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
+                <ScoreDistribution value="good" recordCount="6.0"/>
               </Node>
-              <Node id="165" score="acc" recordCount="6.0">
+              <Node id="171" score="vgood" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="3.0"/>
+                <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="3.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-                <Node id="166" score="acc" recordCount="4.0">
+                <ScoreDistribution value="good" recordCount="3.0"/>
+                <Node id="172" score="good" recordCount="4.0">
                   <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
-                  <ScoreDistribution value="acc" recordCount="3.0"/>
+                  <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="1.0"/>
-                  <ScoreDistribution value="good" recordCount="0.0"/>
+                  <ScoreDistribution value="good" recordCount="3.0"/>
                 </Node>
-                <Node id="169" score="vgood" recordCount="2.0">
+                <Node id="175" score="vgood" recordCount="2.0">
                   <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -758,7 +912,7 @@
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
               </Node>
-              <Node id="170" score="vgood" recordCount="7.0">
+              <Node id="176" score="vgood" recordCount="7.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
@@ -766,67 +920,39 @@
                 <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
             </Node>
-            <Node id="171" score="vgood" recordCount="22.0">
-              <SimplePredicate field="maint" operator="equal" value="med"/>
-              <ScoreDistribution value="unacc" recordCount="1.0"/>
+            <Node id="177" score="vgood" recordCount="17.0">
+              <SimplePredicate field="maint" operator="equal" value="low"/>
+              <ScoreDistribution value="unacc" recordCount="0.0"/>
               <ScoreDistribution value="acc" recordCount="0.0"/>
-              <ScoreDistribution value="vgood" recordCount="12.0"/>
-              <ScoreDistribution value="good" recordCount="9.0"/>
-              <Node id="172" score="good" recordCount="8.0">
+              <ScoreDistribution value="vgood" recordCount="10.0"/>
+              <ScoreDistribution value="good" recordCount="7.0"/>
+              <Node id="178" score="good" recordCount="5.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="1.0"/>
+                <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="7.0"/>
+                <ScoreDistribution value="good" recordCount="5.0"/>
               </Node>
-              <Node id="175" score="vgood" recordCount="6.0">
+              <Node id="179" score="vgood" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="med"/>
                 <ScoreDistribution value="unacc" recordCount="0.0"/>
                 <ScoreDistribution value="acc" recordCount="0.0"/>
                 <ScoreDistribution value="vgood" recordCount="4.0"/>
                 <ScoreDistribution value="good" recordCount="2.0"/>
-                <Node id="176" score="good" recordCount="3.0">
+                <Node id="180" score="good" recordCount="3.0">
                   <SimplePredicate field="doors" operator="lessOrEqual" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="1.0"/>
                   <ScoreDistribution value="good" recordCount="2.0"/>
                 </Node>
-                <Node id="177" score="vgood" recordCount="3.0">
+                <Node id="181" score="vgood" recordCount="3.0">
                   <SimplePredicate field="doors" operator="greaterThan" value="3.5"/>
                   <ScoreDistribution value="unacc" recordCount="0.0"/>
                   <ScoreDistribution value="acc" recordCount="0.0"/>
                   <ScoreDistribution value="vgood" recordCount="3.0"/>
                   <ScoreDistribution value="good" recordCount="0.0"/>
                 </Node>
-              </Node>
-              <Node id="178" score="vgood" recordCount="8.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="big"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="8.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
-              </Node>
-            </Node>
-            <Node id="179" score="vgood" recordCount="16.0">
-              <SimplePredicate field="maint" operator="equal" value="low"/>
-              <ScoreDistribution value="unacc" recordCount="0.0"/>
-              <ScoreDistribution value="acc" recordCount="0.0"/>
-              <ScoreDistribution value="vgood" recordCount="9.0"/>
-              <ScoreDistribution value="good" recordCount="7.0"/>
-              <Node id="180" score="good" recordCount="7.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="small"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="0.0"/>
-                <ScoreDistribution value="good" recordCount="7.0"/>
-              </Node>
-              <Node id="181" score="vgood" recordCount="3.0">
-                <SimplePredicate field="lug_boot" operator="equal" value="med"/>
-                <ScoreDistribution value="unacc" recordCount="0.0"/>
-                <ScoreDistribution value="acc" recordCount="0.0"/>
-                <ScoreDistribution value="vgood" recordCount="3.0"/>
-                <ScoreDistribution value="good" recordCount="0.0"/>
               </Node>
               <Node id="182" score="vgood" recordCount="6.0">
                 <SimplePredicate field="lug_boot" operator="equal" value="big"/>
@@ -838,13 +964,6 @@
             </Node>
           </Node>
         </Node>
-      </Node>
-      <Node id="183" score="unacc" recordCount="463.0">
-        <SimplePredicate field="safety" operator="equal" value="low"/>
-        <ScoreDistribution value="unacc" recordCount="463.0"/>
-        <ScoreDistribution value="acc" recordCount="0.0"/>
-        <ScoreDistribution value="vgood" recordCount="0.0"/>
-        <ScoreDistribution value="good" recordCount="0.0"/>
       </Node>
     </Node>
   </TreeModel>

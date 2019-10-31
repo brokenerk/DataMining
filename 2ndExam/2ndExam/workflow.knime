@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="YaKerTaker"/>
 <entry key="authored-when" type="xstring" value="2019-10-29 18:26:55 -0600"/>
 <entry key="lastEdited-by" type="xstring" value="YaKerTaker"/>
-<entry key="lastEdited-when" type="xstring" value="2019-10-29 19:08:29 -0600"/>
+<entry key="lastEdited-when" type="xstring" value="2019-10-30 20:31:43 -0600"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -186,7 +186,7 @@
 </config>
 <config key="connection_4">
 <entry key="sourceID" type="xint" value="7"/>
-<entry key="destID" type="xint" value="8"/>
+<entry key="destID" type="xint" value="10"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -206,7 +206,7 @@
 </config>
 <config key="connection_6">
 <entry key="sourceID" type="xint" value="7"/>
-<entry key="destID" type="xint" value="10"/>
+<entry key="destID" type="xint" value="8"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
