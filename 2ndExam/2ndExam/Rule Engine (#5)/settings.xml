@@ -7,13 +7,14 @@
 </config>
 <config key="model">
 <config key="rules">
-<entry key="array-size" type="xint" value="6"/>
+<entry key="array-size" type="xint" value="7"/>
 <entry key="0" type="xstring" value="// enter ordered set of rules, e.g.:"/>
 <entry key="1" type="xstring" value="// $double column name$ &gt; 5.0 =&gt; &quot;large&quot;"/>
 <entry key="2" type="xstring" value="// $string column name$ LIKE &quot;*blue*&quot; =&gt; &quot;small and blue&quot;"/>
 <entry key="3" type="xstring" value="// TRUE =&gt; &quot;default outcome&quot;"/>
-<entry key="4" type="xstring" value="MISSING $persons$ =&gt; 5"/>
-<entry key="5" type="xstring" value="$persons$ &lt;= 4 =&gt; $persons$"/>
+<entry key="4" type="xstring" value="MISSING $persons$ =&gt; &quot;more&quot;"/>
+<entry key="5" type="xstring" value="$persons$ = 2 =&gt; &quot;two&quot;"/>
+<entry key="6" type="xstring" value="$persons$ = 4 =&gt; &quot;four&quot;"/>
 </config>
 <entry key="new-column-name" type="xstring" value="prediction"/>
 <entry key="replace-column-name" type="xstring" value="persons"/>
@@ -61,6 +62,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4df414d1-9375-429d-ba5e-916f474f7381"/>
+<entry key="file_store_id" type="xstring" value="e63e6105-6afd-4903-9a10-e18c015473ad"/>
 </config>
 </config>

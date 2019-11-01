@@ -11,16 +11,16 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="PMMLWriterFile" type="xstring" value="C:\Users\YaKerTaker\Google Drive\7mo\DataMining\2ndExam\cars_knime.pmml"/>
-<config key="validatePMML_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="validatePMML" type="xboolean" value="true"/>
 <config key="overwriteOK_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="overwriteOK" type="xboolean" value="true"/>
+<config key="validatePMML_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="validatePMML" type="xboolean" value="true"/>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="Reglas%%00013%%00010clasificacion PMML"/>
@@ -55,6 +55,6 @@
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0a6ea379-ad13-4a2f-89cb-6396d0264954"/>
+<entry key="file_store_id" type="xstring" value="5adae84a-fd0d-4ad5-86d9-a46adc87597e"/>
 </config>
 </config>
